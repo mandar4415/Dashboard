@@ -1,0 +1,190 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --avatar-user-squareandi-lane-color-background: rgba(220, 204, 189, 1);
+  --avatar-user-squarecandice-wu-color-background: rgba(217, 208, 230, 1);
+  --avatar-user-squaredemi-wilkinson-color-background: rgba(218, 220, 214, 1);
+  --avatar-user-squaredrew-cano-color-background: rgba(217, 229, 204, 1);
+  --avatar-user-squarekate-morrison-color-background: rgba(207, 203, 220, 1);
+  --avatar-user-squarekoray-okumus-color-background: rgba(229, 207, 231, 1);
+  --avatar-user-squarelana-steiner-color-background: rgba(215, 227, 232, 1);
+  --avatar-user-squarenatali-craig-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squareolivia-rhye-color-background: rgba(207, 203, 220, 1);
+  --avatar-user-squareorlando-diggs-color-background: rgba(229, 221, 206, 1);
+  --avatar-user-squarephoenix-baker-color-background: rgba(214, 207, 183, 1);
+  --basewhite: rgba(255, 255, 255, 1);
+  --colorsgrey-5: rgba(33, 33, 33, 1);
+  --display-sm-semibold-font-family: "Inter", Helvetica;
+  --display-sm-semibold-font-size: 30px;
+  --display-sm-semibold-font-style: normal;
+  --display-sm-semibold-font-weight: 600;
+  --display-sm-semibold-letter-spacing: 0px;
+  --display-sm-semibold-line-height: 38px;
+  --ds-3: 0px 0px 5px 0px rgba(0, 0, 0, 0.12);
+  --error-500: rgba(240, 96, 65, 1);
+  --gray-500: rgba(142, 144, 170, 1);
+  --gray-700: rgba(77, 80, 107, 1);
+  --primary-100: rgba(186, 233, 255, 1);
+  --primary-200: rgba(151, 222, 255, 1);
+  --primary-500: rgba(47, 189, 255, 1);
+  --primary-600: rgba(39, 157, 212, 1);
+  --primary-700: rgba(31, 126, 170, 1);
+  --shadow-skim-xs: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  --shadows-shadow-xs: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  --text-display-sm-semibold-font-family: "Inter", Helvetica;
+  --text-display-sm-semibold-font-size: 30px;
+  --text-display-sm-semibold-font-style: normal;
+  --text-display-sm-semibold-font-weight: 600;
+  --text-display-sm-semibold-letter-spacing: 0px;
+  --text-display-sm-semibold-line-height: 38px;
+  --text-lg-semibold-font-family: "Inter", Helvetica;
+  --text-lg-semibold-font-size: 18px;
+  --text-lg-semibold-font-style: normal;
+  --text-lg-semibold-font-weight: 600;
+  --text-lg-semibold-letter-spacing: 0px;
+  --text-lg-semibold-line-height: 28px;
+  --text-md-16-normal-font-family: "Inter", Helvetica;
+  --text-md-16-normal-font-size: 16px;
+  --text-md-16-normal-font-style: normal;
+  --text-md-16-normal-font-weight: 400;
+  --text-md-16-normal-letter-spacing: 0px;
+  --text-md-16-normal-line-height: 24px;
+  --text-md-regular-font-family: "Inter", Helvetica;
+  --text-md-regular-font-size: 16px;
+  --text-md-regular-font-style: normal;
+  --text-md-regular-font-weight: 400;
+  --text-md-regular-letter-spacing: 0px;
+  --text-md-regular-line-height: 24px;
+  --text-md-semibold-font-family: "Inter", Helvetica;
+  --text-md-semibold-font-size: 16px;
+  --text-md-semibold-font-style: normal;
+  --text-md-semibold-font-weight: 600;
+  --text-md-semibold-letter-spacing: 0px;
+  --text-md-semibold-line-height: 24px;
+  --text-sm-14-normal-font-family: "Inter", Helvetica;
+  --text-sm-14-normal-font-size: 14px;
+  --text-sm-14-normal-font-style: normal;
+  --text-sm-14-normal-font-weight: 400;
+  --text-sm-14-normal-letter-spacing: 0px;
+  --text-sm-14-normal-line-height: 20px;
+  --text-sm-medium-font-family: "Inter", Helvetica;
+  --text-sm-medium-font-size: 14px;
+  --text-sm-medium-font-style: normal;
+  --text-sm-medium-font-weight: 500;
+  --text-sm-medium-letter-spacing: 0px;
+  --text-sm-medium-line-height: 20px;
+  --text-sm-regular-font-family: "Inter", Helvetica;
+  --text-sm-regular-font-size: 14px;
+  --text-sm-regular-font-style: normal;
+  --text-sm-regular-font-weight: 400;
+  --text-sm-regular-letter-spacing: 0px;
+  --text-sm-regular-line-height: 20px;
+  --text-sm-semibold-font-family: "Inter", Helvetica;
+  --text-sm-semibold-font-size: 14px;
+  --text-sm-semibold-font-style: normal;
+  --text-sm-semibold-font-weight: 600;
+  --text-sm-semibold-letter-spacing: 0px;
+  --text-sm-semibold-line-height: 20px;
+  --text-xs-medium-font-family: "Inter", Helvetica;
+  --text-xs-medium-font-size: 12px;
+  --text-xs-medium-font-style: normal;
+  --text-xs-medium-font-weight: 500;
+  --text-xs-medium-letter-spacing: 0px;
+  --text-xs-medium-line-height: 18px;
+  --text-xs-semibold-font-family: "Inter", Helvetica;
+  --text-xs-semibold-font-size: 12px;
+  --text-xs-semibold-font-style: normal;
+  --text-xs-semibold-font-weight: 600;
+  --text-xs-semibold-letter-spacing: 0px;
+  --text-xs-semibold-line-height: 18px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}

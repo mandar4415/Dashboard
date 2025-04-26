@@ -1,0 +1,1 @@
+export { FrameByAnima } from "./FrameByAnima";
