@@ -36,7 +36,7 @@ export const FrameWrapperByAnima = (): JSX.Element => {
   // Data for prospect leads
   const prospectLeads = [
     { name: "Wade Warren", stage: "Initial Inquiry", avatar: "/wade.png" },
-    { name: "Ava Wright", stage: "Initial Inquiry", avatar: "/ava.png" },
+    { name: "Ava Wright", stage: "Initial Inquiry", avatar: "/public/ava.png" },
     { name: "Cody Fisher", stage: "Initial Inquiry", avatar: "/cody.png" },
   ];
 
