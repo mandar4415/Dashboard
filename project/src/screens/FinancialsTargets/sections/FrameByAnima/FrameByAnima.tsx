@@ -68,7 +68,7 @@ export const FrameByAnima = (): JSX.Element => {
                     >
                       <Avatar className="w-10 h-10 border-[0.75px] border-[#00000014]">
                         <AvatarImage
-                          src={item.user.avatar}
+                          src={`/${item.user.avatar}`}
                           alt={item.user.name}
                         />
                         <AvatarFallback>
@@ -105,7 +105,7 @@ export const FrameByAnima = (): JSX.Element => {
         {/* AI Chat Assistant */}
         <div className="flex flex-col items-center gap-8 py-16 px-8 flex-1">
           <div className="flex flex-col items-center gap-5 w-[486px]">
-            <img className="w-16 h-[35.56px]" alt="Logo" src="/public/logo.png" />
+            <img className="w-16 h-[35.56px]" alt="Logo" src="/logo.png" />
             <h2 className="font-bold text-[30px] text-colorsgrey-5">
               Welcome to the AI Chat Assistant
             </h2>
@@ -121,7 +121,7 @@ export const FrameByAnima = (): JSX.Element => {
                 <img
                   className="w-5 h-5"
                   alt="Send"
-                  src="/public/send_icon.png"
+                  src="/send_icon.png"
                 />
               </button>
             </div>
