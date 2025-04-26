@@ -6,7 +6,7 @@ import {
 } from "../../../../components/ui/avatar";
 import { Badge } from "../../../../components/ui/badge";
 import { Card, CardContent, CardTitle } from "../../../../components/ui/card";
-import Icon from '../../../../assets/Icon.png';
+import Icon from '/public/icon.png';
 
 export const FrameWrapperByAnima = (): JSX.Element => {
   // Data for steps completed
@@ -35,9 +35,9 @@ export const FrameWrapperByAnima = (): JSX.Element => {
 
   // Data for prospect leads
   const prospectLeads = [
-    { name: "Wade Warren", stage: "Initial Inquiry", avatar: "src/assets/Wade.png" },
-    { name: "Ava Wright", stage: "Initial Inquiry", avatar: "src/assets/Ava.png" },
-    { name: "Cody Fisher", stage: "Initial Inquiry", avatar: "src/assets/Cody.png" },
+    { name: "Wade Warren", stage: "Initial Inquiry", avatar: "public/wade.png" },
+    { name: "Ava Wright", stage: "Initial Inquiry", avatar: "public/ava.png" },
+    { name: "Cody Fisher", stage: "Initial Inquiry", avatar: "public/cody.png" },
   ];
 
   return (
@@ -87,7 +87,7 @@ export const FrameWrapperByAnima = (): JSX.Element => {
                       <img
                         className="w-4 h-4"
                         alt="Completed"
-                        src="src/assets/tick_icon.png"
+                        src="/public/tick_icon.png"
                       />
                     </div>
                   ))}
@@ -116,7 +116,7 @@ export const FrameWrapperByAnima = (): JSX.Element => {
                       <img
                         className="w-4 h-4"
                         alt="Completed"
-                        src="src/assets/tick_icon2.png"
+                        src="/public/tick_icon2.png"
                       />
                     </div>
                   ))}
@@ -159,27 +159,27 @@ export const FrameWrapperByAnima = (): JSX.Element => {
                         { 
                           name: "Olivia Rhye", 
                           bg: "#CFCBDC",
-                          image: "src/assets/Avatar1.png"
+                          image: "avatar1.png"
                         },
                         { 
                           name: "Phoenix Baker", 
                           bg: "#D6CFB7",
-                          image: "src/assets/Avatar2.png"
+                          image: "avatar2.png"
                         },
                         { 
                           name: "Lana Steiner", 
                           bg: "#D7E3E8",
-                          image: "src/assets/Avatar3.png"
+                          image: "avatar3.png"
                         },
                         { 
                           name: "Demi Wilkinson", 
                           bg: "#DADCD6",
-                          image: "src/assets/Avatar4.png"
+                          image: "avatar4.png"
                         },
                         { 
                           name: "Candice Wu", 
                           bg: "#D9D0E6",
-                          image: "src/assets/Avatar5.png"
+                          image: "avatar5.png"
                         }
                       ].map((user, index) => (
                         <div
@@ -190,7 +190,7 @@ export const FrameWrapperByAnima = (): JSX.Element => {
                           <div
                             className="w-6 h-6 border-[1.5px] border-white rounded-full relative bg-cover bg-center"
                             style={{ 
-                              backgroundImage: `url(${user.image})`,
+                              backgroundImage: `url(/public/${user.image})`,
                               backgroundColor: user.bg
                             }}
                           >
@@ -330,7 +330,7 @@ export const FrameWrapperByAnima = (): JSX.Element => {
                 <div className="flex items-center justify-center gap-4">
                   <div className="flex flex-col items-center gap-2">
                     <Avatar className="w-9 h-9">
-                      <AvatarImage src="src/assets/Avatar6.png" alt="Top performer" />
+                      <AvatarImage src="/public/avatar6.png" alt="Top performer" />
                       <AvatarFallback className="border-[0.75px] border-[#00000014]"></AvatarFallback>
                     </Avatar>
 

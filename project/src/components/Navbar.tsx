@@ -7,7 +7,7 @@ const Navbar = () => {
           {/* Settings Button */}
           <button className="flex items-center justify-center w-10 h-9 p-0.2 bg-white rounded-[6px] hover:bg-gray-50 transition-colors">
             <img
-              src="src/assets/Settings.png"
+              src="settings.png"
               alt="Settings"
               className="w-10 h-10 text-[#5E718D]"
             />
@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="flex flex-col items-start w-10 h-10">
             <div className="relative w-10 h-10">
               <img
-                src="src/assets/Profile.png"
+                src="profile.png"
                 alt="User Avatar"
                 width={40}
                 height={40}

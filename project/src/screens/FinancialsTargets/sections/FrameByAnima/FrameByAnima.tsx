@@ -7,7 +7,7 @@ import {
 } from "../../../../components/ui/avatar";
 import { Badge } from "../../../../components/ui/badge";
 import { Input } from "../../../../components/ui/input";
-import chevronRight from '../../../../assets/chevron-right.png';
+import chevronRight from '/public/chevron-right.png';
 
 // User data for pending questions
 const pendingQuestions = [
@@ -16,7 +16,7 @@ const pendingQuestions = [
     user: {
       name: "Phoenix Baker",
       username: "@phoenix",
-      avatar: "src/assets/Avatar2.png",
+      avatar: "avatar2.png",
       background: "avatar-user-squarephoenix-baker-color-background",
       online: true,
     },
@@ -28,7 +28,7 @@ const pendingQuestions = [
     user: {
       name: "Koray Okumus",
       username: "@koray",
-      avatar: "src/assets/Avatar7.png",
+      avatar: "avatar7.png",
       background: "avatar-user-squarekoray-okumus-color-background",
       online: true,
     },
@@ -105,7 +105,7 @@ export const FrameByAnima = (): JSX.Element => {
         {/* AI Chat Assistant */}
         <div className="flex flex-col items-center gap-8 py-16 px-8 flex-1">
           <div className="flex flex-col items-center gap-5 w-[486px]">
-            <img className="w-16 h-[35.56px]" alt="Logo" src="src/assets/Logo.png" />
+            <img className="w-16 h-[35.56px]" alt="Logo" src="/public/logo.png" />
             <h2 className="font-bold text-[30px] text-colorsgrey-5">
               Welcome to the AI Chat Assistant
             </h2>
@@ -121,7 +121,7 @@ export const FrameByAnima = (): JSX.Element => {
                 <img
                   className="w-5 h-5"
                   alt="Send"
-                  src="src/assets/send_icon.png"
+                  src="/public/send_icon.png"
                 />
               </button>
             </div>
